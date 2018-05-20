@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 442}
   m_MaxSize: {x: 4004, y: 8042}
   vertical: 1
-  controlID: 138
+  controlID: 99
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 713}
   m_MaxSize: {x: 14004, y: 18063}
   vertical: 0
-  controlID: 60
+  controlID: 96
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 713}
   m_MaxSize: {x: 10002, y: 18063}
   vertical: 1
-  controlID: 74
+  controlID: 97
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 442}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 0
-  controlID: 13
+  controlID: 98
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,8 +250,8 @@ MonoBehaviour:
     y: 0
     width: 485
     height: 314
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -423,7 +423,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: cc79feff5af4ffff80f4ffff8cf4ffffa6f6ffff9efbffff00000000
+    m_ExpandedIDs: 9a45feff8888feff80e2ffff8ce2ffff9ef6ffff8efbffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -474,14 +474,14 @@ MonoBehaviour:
     height: 293
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2977.6879781158295
+  lastFramingTime: 3781.055458242613
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0.0789752}
+    m_Target: {x: -0.035752296, y: 0.12277603, z: 1.1872659}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0.0789752}
+    m_Value: {x: -0.035752296, y: 0.12277603, z: 1.1872659}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -505,19 +505,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.1630546, y: 0.6963603, z: -0.16732211, w: 0.6786045}
+    m_Target: {x: 0.25779417, y: 0.4255981, z: -0.12788296, w: 0.85793674}
     speed: 2
-    m_Value: {x: 0.16305417, y: 0.69635844, z: -0.16732168, w: 0.6786027}
+    m_Value: {x: 0.25779405, y: 0.4255979, z: -0.1278829, w: 0.8579363}
   m_Size:
-    m_Target: 17.910803
+    m_Target: 22
     speed: 2
-    m_Value: 17.910803
+    m_Value: 22
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.3398773, y: 0.010697592, z: -0.0038665826, w: -0.9404011}
+  m_LastSceneViewRotation: {x: 0.16192234, y: 0.34006798, z: -0.05956401, w: 0.92443883}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -632,19 +632,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts/Managers
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts/Managers
   m_LastFoldersGridSize: 16
   m_LastProjectPath: X:\Andrea y sus cosas\Universidad\Motores\Tutorial-final-Tanks\Tutorial-final-tanks\Tanks
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 49}
-    m_SelectedIDs: e2290000
-    m_LastClickedID: 10722
-    m_ExpandedIDs: 00000000722800003e2b000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 65}
+    m_SelectedIDs: 7a280000
+    m_LastClickedID: 10362
+    m_ExpandedIDs: 0000000072280000442b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -672,7 +672,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000722800003e2b0000
+    m_ExpandedIDs: 0000000072280000442b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -700,18 +700,18 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000ea3f0000dc3d0000d43d0000282c0000742c00002c2c000000000000
+    m_ExpandedInstanceIDs: c6230000ea3f0000dc3d0000d43d0000282c0000742c00002c2c000000000000382a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Prefabs
-      m_OriginalName: Prefabs
+      m_Name: Scripts
+      m_OriginalName: Scripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10722
+      m_UserData: 11076
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
